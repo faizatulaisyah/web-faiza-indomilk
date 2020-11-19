@@ -1,0 +1,46 @@
+.runningtext {
+    padding-top: 5px;
+    color: white;
+    background-color: rgba(1, 22, 41, 0.801);
+  }
+
+  .bg-header{
+    background: url("assets/background1.jpg")no-repeat center/cover;
+    width: 100%;
+    height: 100px;
+    color: white;
+  }
+
+  .menu {
+    -webkit-box-ordinal-group: 0;
+        -ms-flex-order: -1;
+            order: -1;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 1.1rem;
+    cursor: pointer;
+    padding: 3px 0px 3px 5px;
+    max-width: 100%;
+    height: 23px;
+    background-color: #8ebcf8;
+    letter-spacing: 2px;
+  }
+
+  .menu .btn{
+    color: white;
+  }
+
+  .card-img-top{
+    width: 100%;
+    height: 20vw;
+    object-fit: cover;
+  }
+  footer{
+    background-color: #8ebcf8;
+    height: 110px;
+    color: blue;
+  }
